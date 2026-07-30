@@ -1,1 +1,2 @@
 # RABAGU
+Se realizará una aplicación web con perfiles de emprendedoras, catálogo de productos, un mapa informativo con la ubicación de los emprendimientos y contacto directo con clientes. La plataforma facilitará la divulgación de productos elaborados por mujeres rurales, indígenas y afrodescendientes, ampliando su acceso a mercados, fortaleciendo sus oportunidades económicas y contribuyendo a la disponibilidad de productos que benefician a las familias nicaragüenses.
