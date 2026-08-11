@@ -2,45 +2,45 @@
 const productos = [
   {
     id: 1,
-    nombre: "Huipil Bordado a Mano",
+    nombre: "Carteras",
     artesana: "Por María Gutiérrez",
-    precio: "C$ 1,200",
-    imagen: "https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=500&q=80"
+    precio: "C$ 100",
+    imagen: "img/carteras.jpg"
   },
   {
     id: 2,
-    nombre: "Vasija de Barro Tradicional",
+    nombre: "Alfarería de barro",
     artesana: "Por Juana López",
-    precio: "C$ 450",
-    imagen: "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=500&q=80"
+    precio: "C$ 500",
+    imagen: "img/jarrones-de-barro.jpg"
   },
   {
     id: 3,
-    nombre: "Jardín en Maceta de Cerámica",
+    nombre: "Muñecas de tusa",
     artesana: "Por Ana Martínez",
-    precio: "C$ 300",
-    imagen: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=500&q=80"
+    precio: "C$ 180",
+    imagen: "img/mugnecas-de-tusa.jpg"
   },
   {
     id: 4,
-    nombre: "Aceite Corporal Orgánico",
+    nombre: "Hamacas",
     artesana: "Por Colectivo Sutiaba",
-    precio: "C$ 250",
-    imagen: "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=500&q=80"
+    precio: "C$ 600",
+    imagen: "img/hamacas.jpg"
   },
   {
     id: 5,
-    nombre: "Hamaca Tejida Artesanal",
+    nombre: "Jarrones de madera",
     artesana: "Por Carmen Ruíz",
-    precio: "C$ 1,800",
-    imagen: "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=500&q=80"
+    precio: "C$ 400",
+    imagen: "img/jarrones-de-madera.jpg"
   },
   {
     id: 6,
-    nombre: "Cesta de Palma Tejida",
+    nombre: "Tarros encurtidos",
     artesana: "Por Lucía Mendoza",
-    precio: "C$ 350",
-    imagen: "https://images.unsplash.com/photo-1590736969955-71cc94801759?auto=format&fit=crop&w=500&q=80"
+    precio: "C$ 90",
+    imagen: "img/tarros-encurtidos.jpg"
   }
 ];
 
