@@ -1,4 +1,4 @@
-npm import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Dimensions,
   Image,
@@ -1486,7 +1486,11 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.ivory,
   },
   mapCanvas: {
-    ...StyleSheet.absoluteFillObject,
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom: 0,
     overflow: 'hidden',
     backgroundColor: '#F7EBD7',
   },
