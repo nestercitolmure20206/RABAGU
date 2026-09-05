@@ -9,7 +9,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
-
+import { initDB } from './src/database/db';
 const COLORS = {
   pink: '#FB147C',
   orange: '#FC6106',
@@ -168,6 +168,9 @@ const products: Product[] = CATALOG.flatMap((category, categoryIndex) =>
 
 export default function App() {
   const [onboardingStep, setOnboardingStep] = useState(0);
+  useEffect(() => {
+  initDB();
+}, []);
   const [screen, setScreen] = useState<
     | 'inicio'
     | 'tienda'
