@@ -1,5 +1,7 @@
 # Dependencias
 node_modules/
+.pnp
+.pnp.js
 
 # Expo
 .expo/
@@ -7,33 +9,57 @@ dist/
 web-build/
 expo-env.d.ts
 
-# Native
-*.orig.*
-*.jks
+# Builds nativos (Android/iOS)
+android/
+ios/
+*.keystore
 *.p8
 *.p12
 *.key
 *.mobileprovision
+*.jks
+Pods/
 
-# Metro
-.metro-health-check*
+# Secretos y credenciales (CRÍTICO)
+.env
+.env.local
+.env.*.local
+*.env
+secrets.json
+credentials.json
+GoogleService-Info.plist
+google-services.json
 
-# Debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
+# Base de datos local
+*.db
+*.sqlite
+*.db-journal
+*.sqlite-journal
 
-# macOS
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo (Windows / macOS)
 .DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
 
-# IDE
-.idea/
+# IDEs y editores
 .vscode/
+.idea/
 *.swp
-*.iml
+*.swo
+*~
+.history/
 
-# TypeScript
+# TypeScript y caché
 *.tsbuildinfo
-
-# Claude
-.claude/
+.cache/
+*.tmp
+*.bak
+*.orig
