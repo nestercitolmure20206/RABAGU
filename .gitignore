@@ -60,7 +60,7 @@ $RECYCLE.BIN/
 # TypeScript y caché
 *.tsbuildinfo
 .cache/
-*.tmp
+*.tmp 
 *.bak
 *.orig
 
